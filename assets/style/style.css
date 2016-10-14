@@ -1,0 +1,157 @@
+/*@@@@@@@@@@@@@@@*/
+/* Shared styles */
+/*@@@@@@@@@@@@@@@*/
+
+#navbar {
+	display:inline-block;
+	width:100%;
+	height: 50px;
+	position: absolute;
+	z-index: 2;
+	background-color: #000000;
+	/*border: 1px solid;
+	/*box-shadow: 5px 5px 5px black;*/
+
+}
+
+#navbar-content {
+	width:1500px;
+	margin: auto;
+	/*border: 1px solid;*/
+}
+
+#logo{
+	height:50px;
+}
+#search{
+	position: fixed;
+	z-index: 2;
+    right: 15%;
+}
+
+body {
+	font-family: "Source Sans Pro";
+	background-color: #dee0e2;
+	margin: 0;
+}
+
+#container{
+	background-color: #ffffff;
+	width: 100%;
+	position: relative;
+	height: 700px;
+	border: 1px solid;
+	box-shadow: 3px 3px 5px black;
+}
+
+/*@@@@@@@@@@@@@*/
+/* Home page */
+/*@@@@@@@@@@@@@*/
+
+#background_container{
+	background-color: #ffffff;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	height: 700px;
+	border: 1px solid;
+	box-shadow: 3px 3px 5px black;
+}
+
+#big_search{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+#search_input{
+
+	/*z-index: 10;*/
+}
+
+#search_button{
+}
+
+#background_photo{
+	width: 100%;
+	/* Change to have a dark one over this instead of making it transparent*/
+	opacity: 0.5;
+	height: 500px;
+	object-fit: cover;
+}
+
+/*@@@@@@@@@@@@@*/
+/* Search page */
+/*@@@@@@@@@@@@@*/
+
+
+#search-container{
+	text-align: center;
+	position: relative;
+	height: 500px;
+	top: 50px;
+	border: 1px solid;
+	box-shadow: 3px 3px 5px black;
+}
+
+#search-title{
+	font-size: 48px;
+	margin-top: 50px;
+}
+
+
+
+/*@@@@@@@@@@@@@*/
+/* Artist page */
+/*@@@@@@@@@@@@@*/
+
+#artist-container{
+	text-align: center;
+	position: relative;
+	height: 500px;
+	top: 50px;
+	border: 1px solid;
+	box-shadow: 3px 3px 5px black;
+}
+
+#artist-title{
+	font-size: 48px;
+	margin-top: 50px;
+}
+
+
+
+/*@@@@@@@@@@@@@@@*/
+/* Lyrics page */
+/*@@@@@@@@@@@@@@@*/
+
+#song-container{
+	background-color: #ffffff;
+	width: 1000px;
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	position: relative;
+	top: 50px;
+	height: 700px;
+	border: 1px solid;
+	box-shadow: 3px 3px 5px black;
+
+}
+
+#lyrics-container{
+	text-align: center;
+}
+
+#song-title{
+	font-size: 48px;
+}
+
+#song-title-container{
+	padding: 40px;
+
+}
+
+#artist-name{
+	font-size: 36px;
+	font-style: italic;
+}
