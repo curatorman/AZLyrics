@@ -41,11 +41,12 @@ body {
 
 #container{
 	background-color: #ffffff;
-	width: 100%;
+	width: 85%;
 	position: relative;
-	height: 700px;
+	height: 1500px;
 	border: 1px solid;
 	box-shadow: 3px 3px 5px black;
+	margin: 0 auto;
 }
 
 /*@@@@@@@@@@@@@*/
@@ -200,16 +201,135 @@ input[type=text]:focus:hover {
 #artist-container{
 	text-align: center;
 	position: relative;
-	height: 500px;
-	top: 50px;
-	border: 1px solid;
-	box-shadow: 3px 3px 5px black;
+	width: 1400px;
+	/*border: 1px solid;*/
+	/*box-shadow: 5px 3px 5px black;*/
+	margin: 0 auto;
 }
 
 #artist-title{
-	font-size: 48px;
-	margin-top: 50px;
+	font-size: 72px;
+	/*font-weight:;*/
+	margin-top: 100px;
+	margin-bottom: 30px;
+	/*border: 1px solid;*/
 }
+
+#artist-content{
+	/*margin: auto;*/
+	padding-bottom: 70px;
+}
+
+.title-header{
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 60px;
+	/*border: 1px solid;*/
+}
+
+.list-content{
+	font-size: 20px;
+	/*border: 1px solid;*/
+}
+
+#top-songs{
+	float: left;
+	margin-left: 25%;
+}
+
+#relevant-artists{
+	float: left;
+	margin-left: 25%;
+}
+
+.clear{
+	clear: both;
+}
+/* 
+You DO need to worry about the css attributes below.
+*/
+/*
+.blog_text_container {
+	padding: 20px;
+	border: 1px solid;
+}
+
+.blog_head_container {
+	padding-bottom: 10px;
+}
+
+#title_container {
+	margin: 20px 10px;
+	text-align: center;
+}
+
+
+#page_header {
+	font-size: 46px;
+	text-align: center;
+}*/
+
+.album-container {
+	/*text-align: center;*/
+	width: 350px;
+	/*box-sizing: border-box;*/
+	float: left;
+	background-color: white;
+	/*border-bottom: 1px solid rgba(0,0,0,0.2);*/
+	margin: 50px;
+	position: relative;
+}
+
+.album-art {
+	width: 350px;
+}
+
+.album-text{
+	/*TODO: left align?*/
+	width: 270px;
+	height: 270px;
+	position: absolute;
+	top: 0px;
+	padding: 40px;
+	opacity: 0;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.album-title{
+	font-size: 24px;
+}
+
+.album-container:hover .album-art {
+	filter: blur(4px);
+	opacity: 0.4;
+	transition: 0.1s;
+}
+
+.album-container:hover .album-text{
+	opacity: 1;
+	transition: 0.1s;
+}
+
+/*.blog_header {
+	color: #1a1a1a;
+	font-weight: 400;
+	font-size: 30px;
+}
+.blog_subtitle {
+	color: #949799;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: .025em;
+}
+.blog_paragraph {
+	font-size: 16px;
+	font-weight: 400;
+	color: #666;
+}*/
+
 
 
 
