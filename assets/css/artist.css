@@ -38,8 +38,9 @@
 }
 
 #top-songs{
-	float: left;
-	margin-left: 25%;
+	/*float: left;*/
+	/*margin-left: 25%;*/
+	left: 40%;
 }
 
 #relevant-artists{
@@ -57,36 +58,43 @@
 	/*width: 1400px;*/
 	/*height: 1000px;*/
 	/*border: 1px solid;*/
-	/*box-shadow: 5px 3px 5px black;
-	margin: 0 auto;*/
+	/*box-shadow: 5px 3px 5px black;*/
+	/*margin: 0 auto;*/
 }
 
 .album-container {
+	/*border: 1px solid;*/
 	/*text-align: center;*/
-	width: 350px;
+	width: 24.8vw;
+	height: 24.8vw;
+	/*height: 30%;*/
 	/*box-sizing: border-box;*/
 	float: left;
 	background-color: white;
 	/*border-bottom: 1px solid rgba(0,0,0,0.2);*/
-	margin: 50px;
 	position: relative;
 }
 
 .album-art {
-	width: 350px;
+	width: 20vw;
+	height: 20vw;
+	margin: 2.4vw;
+	/*border: 1px solid;*/
 }
 
 .album-text{
 	/*TODO: left align?*/
-	width: 270px;
-	height: 270px;
+	width: 14.8vw;
+	height: 14.8vw;
+	margin: 4.5vw;
+	margin-top: 5.5vw;
 	position: absolute;
 	top: 0px;
-	padding: 40px;
 	opacity: 0;
 	font-weight: bold;
 	font-size: 20px;
-	line-height: 24px;
+	line-height: 30px;
+	overflow: scroll;
 }
 
 .album-title{
@@ -103,24 +111,6 @@
 	opacity: 1;
 	transition: 0.1s;
 }
-
-/*.blog_header {
-	color: #1a1a1a;
-	font-weight: 400;
-	font-size: 30px;
-}
-.blog_subtitle {
-	color: #949799;
-	text-transform: uppercase;
-	font-size: 13px;
-	font-weight: 600;
-	letter-spacing: .025em;
-}
-.blog_paragraph {
-	font-size: 16px;
-	font-weight: 400;
-	color: #666;
-}*/
 
 
 
