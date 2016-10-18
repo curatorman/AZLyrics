@@ -51,7 +51,7 @@
 	font-size: 19px;
 	height: 70px;
 	line-height: 3;
-	transition: 0.1s;
+	transition: 0.3s;
 }
 
 #search-container .search-content:hover{
