@@ -3,9 +3,10 @@
 /*@@@@@@@@@@@@@*/
 
 #artist-container{
+	/*background-color: #ffffff;*/
 	text-align: center;
 	position: relative;
-	width: 1400px;
+	/*width: 1400px;*/
 	/*border: 1px solid;*/
 	/*box-shadow: 5px 3px 5px black;*/
 	margin: 0 auto;
@@ -49,29 +50,16 @@
 .clear{
 	clear: both;
 }
-/*
-You DO need to worry about the css attributes below.
-*/
-/*
-.blog_text_container {
-	padding: 20px;
-	border: 1px solid;
+
+#all-albums{
+	/*border: 1px solid;*/
+	/*background-color: #ffffff;*/
+	/*width: 1400px;*/
+	/*height: 1000px;*/
+	/*border: 1px solid;*/
+	/*box-shadow: 5px 3px 5px black;
+	margin: 0 auto;*/
 }
-
-.blog_head_container {
-	padding-bottom: 10px;
-}
-
-#title_container {
-	margin: 20px 10px;
-	text-align: center;
-}
-
-
-#page_header {
-	font-size: 46px;
-	text-align: center;
-}*/
 
 .album-container {
 	/*text-align: center;*/
