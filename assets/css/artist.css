@@ -157,6 +157,8 @@
 }
 
 .album-song-name{
+	font-weight: 200;
+	transition: 0.1s;
 	/*color: black;*/
 }
 
@@ -166,7 +168,7 @@
     -1px -1px 0 #444444,
     1px -1px 0 #444444,
     -1px 1px 0 #444444,
-    1px 1px 0 #444444; 
+    1px 1px 0 #444444;
 ;
 
 }
@@ -180,6 +182,3 @@
 	opacity: 1;
 	transition: 0.1s;
 }
-
-
-
