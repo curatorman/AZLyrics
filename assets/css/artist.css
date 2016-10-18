@@ -27,11 +27,11 @@
 
 #artist-pic{
 	width: 75%;
-	/*top: 0%;*/
+	top: 10%;
 /*	left: 5%;
 */	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+	/*top: 50%;*/
+	/*transform: translateY(-50%);*/
 	border-radius: 100%;
 	border: 5px solid;
 	border-color: #342938;
