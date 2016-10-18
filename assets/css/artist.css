@@ -50,11 +50,12 @@
 
 #related-artists{
 	position: absolute;
-	right:10%;
+	right:12%;
 }
 
 #artist-title{
-	font-size: 72px;
+	font-size: 60px;
+	font-weight: bold;
 	/*margin-top: 50px;*/
 	padding-top: 30px;
 	margin-bottom: 30px;
@@ -72,7 +73,7 @@
 }
 
 .title-header{
-	font-size: 36px;
+	font-size: 30px;
 	font-weight: bold;
 	line-height: 60px;
 	/*border: 1px solid;*/
@@ -86,12 +87,8 @@
 #top-songs{
 	/*float: left;*/
 	/*margin-left: 25%;*/
+	position: absolute;
 	left: 40%;
-}
-
-#relevant-artists{
-	float: left;
-	margin-left: 25%;
 }
 
 .clear{
