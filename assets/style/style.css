@@ -2,6 +2,7 @@
   display:inline-block;
 	width:100%;
 	height: 100px;
+  opacity: 0.95;
 	position: fixed;
 	z-index: 2;
 	background-color: #452350;
@@ -40,10 +41,10 @@ body {
 }
 
 #container{
-	background-color: #ffffff;
-	width: 85%;
+	background-color: #8F7698;
+	width: 100%;
 	position: relative;
-	height: 1500px;
+	height: 100%;
 	border: 1px solid;
 	box-shadow: 3px 3px 5px black;
 	margin: 0 auto;
@@ -70,49 +71,106 @@ body {
 	object-fit: cover;
 }
 
+.img {
+  position: relative;
+  width: 100%;
+}
+
+h1 span {
+  position: absolute;
+  font-size: 55px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #351340;
+  letter-spacing: 3px;
+  bottom: 350px;
+  right: 285px;
+  margin: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+h1 span:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 3px;
+
+}
+
 #big_search{
   /*Still messing with this search bar stuff so it looks jank rn sorry*/
-  position: relative;
-  bottom: 180px;
+  position: absolute;
+  bottom: 260px;
+  left: 390px;
   margin: 0 auto;
-  bottom: 300px;
+  display: inline-block;
   /*bottom: 50%;*/
   /*top: 50%;
 	left: 50%;
   margin-top: 50px;*/
 }
 
-#search_input #bigsearch {
-  position: relative;
+input::-webkit-input-placeholder {
+color: #222222 !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+color: #222222 !important;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #222222 !important;
+}
+
+input:-ms-input-placeholder {
+color: #222222 !important;
+}
+
+#search_input input {
+  margin: 0 auto;
+  height: 53px;
+  width: 430px;
+  margin: 10px 10px;
+  outline: none;
+  padding: 0 20px;
+  background: transparent;
+  background: rgba(163, 135, 106, 0.15);
+  background-clip: padding-box;
+  border: none;
+  border-radius: 26px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1),
+                    0 1px 0 rgba(255, 255, 255, 0.5),
+                    inset 0 1px 2px rgba(0, 0, 0, 0.3),
+                    0 0 40px rgba(255, 255, 255, 0.3);
+  transition: 0.3s ease-in-out;
   /*position: relative;
   text-align: center;
   transform:translateY(-50%);*/
   /*z-index: 10;*/
 }
 
-#search input[type=text] {
-  height: 60px;
-  width: 0px;
-  font-size: 55px;
-  display: inline-block;
-  border: none;
-  outline: none;
-  transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
-  cursor: pointer;
-  z-index: 3;
-
+#search_input input:focus {
+  background: transparent;
+  background: rgba(163, 135, 106, 0.2);
+  box-shadow: inset 0 0 5px #8F7698,
+              inset 0 1px 2px rgba(0, 0, 0, 0.4),
+              0 0 40px rgba(255, 255, 255, 0.5);
 }
 
-#search input[type=text]:focus {
-  width: 700px;
-  z-index: 1;
-}
-
-input[type=text]:focus:hover {
-  border-bottom: 1px solid #BBB;
+label {
+    background: transparent url(http://f.cl.ly/items/2a2Z0V0L0J1p3V082d3r/icon-search.png) no-repeat top left;
+    cursor: pointer;
+    display: block;
+    height: 17px;
+    width: 16px;
+    left: 440px;
+    position: relative;
+    text-indent: -99999px;
+    top: -43px;
 }
 
 #search_button{
+  height: 100px;
+  width: 200px;
+  margin: 0 auto;
 }
 
 #bottom_bar {
@@ -245,7 +303,7 @@ input[type=text]:focus:hover {
 .clear{
 	clear: both;
 }
-/* 
+/*
 You DO need to worry about the css attributes below.
 */
 /*
