@@ -41,18 +41,15 @@ body {
 }
 
 #container{
-	background-color: #8F7698;
-	width: 100%;
+	background-color: white;
+	width: 75%;
 	position: relative;
-<<<<<<< HEAD
 	height: 100%;
 	border: 1px solid;
 	box-shadow: 3px 3px 5px black;
-=======
 	height: 1500px;
 	border: 1px solid #72517C;
 	/*box-shadow: 3px 3px 5px black;*/
->>>>>>> a50d9c68838db18c0d0eed0a3caf07ecabe18a71
 	margin: 0 auto;
 }
 
