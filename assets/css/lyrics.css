@@ -1,0 +1,45 @@
+/*@@@@@@@@@@@@@@@*/
+/* Lyrics page */
+/*@@@@@@@@@@@@@@@*/
+
+#song-container{
+	background-color: #ffffff;
+	width: 1000px;
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	position: relative;
+	top: 38px;
+	height: 100%;
+	border: 1px solid #72517C;
+	/*box-shadow: 3px 3px 5px black;*/
+
+}
+
+#song-container a {
+	text-decoration: none;
+}
+
+#lyrics-container{
+	text-align: center;
+	line-height: 1.45;
+	font-size: 17px;
+	color: #171111;
+}
+
+#song-title{
+	font-size: 55px;
+	font-weight: 600;
+	color: #171111;
+}
+
+#song-title-container{
+	padding: 40px;
+
+}
+
+#artist-name{
+	font-size: 15px;
+	font-style: italic;
+}
+

@@ -1,0 +1,46 @@
+/*@@@@@@@@@@@@@*/
+/* Search page */
+/*@@@@@@@@@@@@@*/
+
+
+#search-container{
+	text-align: center;
+	position: relative;
+	height: 500px;
+	top: 50px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#search-container a{
+	text-decoration: none;
+	color: #222020;
+
+}
+
+#search-title{
+	font-size: 55px;
+	margin-top: 45px;
+	margin-bottom: 45px;
+	color: #171111;
+	font-weight: 900;
+}
+
+#search-content{
+	color: #222020;
+	font-size: 18px;
+	line-height: 2.5;
+	font-weight: 200;
+}
+
+#search-content:hover{
+	color: darkgray;
+	font-weight: 900;
+	text-shadow: 4px #222020;
+}
+
+#search-content a:hover{
+	color: darkgray;
+	font-weight: 900;
+	text-shadow: 4px #222020;
+}
+
