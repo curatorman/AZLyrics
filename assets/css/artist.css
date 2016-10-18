@@ -10,40 +10,65 @@
 	/*border: 1px solid;*/
 	/*box-shadow: 5px 3px 5px black;*/
 	margin: 0 auto;
+	height: 550px;
+	border-bottom: 6px solid;
+
 }
 
 #artist-pic-container{
 	position: absolute;
 	/*left: 3vw;*/
 	width: 35%;
-	height: 500px;
-	border: 1px solid;
+	height: 550px;
+	/*border: 1px solid;*/
+	/*border-right: 3px solid;*/
 
 }
 
 #artist-pic{
-	width: 400px;
+	width: 70%;
+	left: 5%;
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
+	border-radius: 100%;
+	border: 5px solid;
+	border-color: #342938;
 }
 
+#artist-blurb{
+	/*font-style: italic;*/
+	/*border: 1px solid;*/
+	overflow: auto;
+}
+
+#top-songs{
+	position: absolute;
+	/*border: 1px solid;*/
+	left: 0;
+}
+
+#related-artists{
+	position: absolute;
+	right:10%;
+}
 
 #artist-title{
 	font-size: 72px;
-	margin-top: 50px;
+	/*margin-top: 50px;*/
+	padding-top: 30px;
 	margin-bottom: 30px;
 	/*border: 1px solid;*/
 }
 
 #artist-content{
-	/*margin: auto;*/
 	text-align: left;
 	padding-left: 70px;
 	padding-right: 70px;
-	border: 1px solid;
 	margin-left: 35%;
-	height: 500px;
+	height: 550px;
+	/*box-shadow: 0px 10px 5px black;*/
+	overflow: auto;
 }
 
 .title-header{
@@ -73,6 +98,13 @@
 	clear: both;
 }
 
+#all-albums-title{
+	position: relative;
+	left: 5%;
+	width: 100px;
+	font-size: 72px;
+	margin-top: 50px;
+}
 #all-albums{
 	/*border: 1px solid;*/
 	/*background-color: #ffffff;*/
@@ -87,8 +119,8 @@
 	/*border: 1px solid;*/
 	/*text-align: center;*/
 	margin-left: .4vw;
-	width: 24.3vw;
-	height: 24.3vw;
+	width: 24.2vw;
+	height: 24.2vw;
 	/*height: 30%;*/
 	/*box-sizing: border-box;*/
 	float: left;
@@ -106,17 +138,17 @@
 
 .album-text{
 	/*TODO: left align?*/
-	width: 14.8vw;
-	height: 14.8vw;
-	margin: 4.5vw;
-	margin-top: 5.5vw;
+	width: 18vw;
+	height: 18vw;
+	margin: 3vw;
+	margin-top: 4vw;
 	position: absolute;
 	top: 0px;
 	opacity: 0;
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 30px;
-	overflow: scroll;
+	overflow: auto;
 }
 
 .album-title{

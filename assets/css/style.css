@@ -23,9 +23,46 @@
 	position: relative;
 }
 
+.navstuff li{
+	list-style-type: none;
+	margin: 0;
+	padding: 15px;
+	display: inline;
+	overflow: hidden;
+	float: left;
+}
+.navstuff {
+	position: absolute;
+	left: 7%;
+	top: 15%;
+}
+
+.navstuff .button{
+	top: 0;
+	bottom: 10%;
+	left: 10px;
+	cursor: pointer;
+	font-size: 15px;
+	color: white;
+	padding: 1px 5px;
+	margin: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	width: 200px;
+	display: inline-block;
+	opacity: 0.5;
+	position: relative;
+}
+
+.navstuff .button:hover {
+	background-color: #111;
+}
+
 #logo{
   /*position: fixed;*/
-  height:80px;
+  position: relative;
+  height: 80px;
   padding: 10px;
   left: 10px;
 
@@ -39,8 +76,8 @@
 	position: absolute;
 	/*z-index: 2;*/
 	/*bottom: 10px;*/
-    right: 30px;
-    top: 20px;
+    right: 35px;
+    bottom: 18px;
 }
 
 #nav-search input {
@@ -87,7 +124,7 @@ body {
 	/*position: relative;*/
 	/*height: 100%;*/
 	/*box-shadow: 3px 3px 5px black;*/
-	height: 1500px;
+	height: 1700px;
 	border: 1px solid #72517C;
 	/*box-shadow: 3px 3px 5px black;*/
 	margin: 0 auto;
