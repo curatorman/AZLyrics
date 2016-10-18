@@ -44,3 +44,15 @@
 .Chorus{
 	font-weight: bold;
 }
+
+#social-media-container .media {
+width: 30px;
+opacity: 0.5;
+transition: 0.2s;
+display: inline-block;
+padding: 10px;
+}
+
+#social-media-container .media:hover{
+opacity: 1;
+}
