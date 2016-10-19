@@ -12,8 +12,6 @@
 	background-color: #342938;
 	border: 1px solid;
 	top: 0;
-	/*box-shadow: 5px 5px 5px black;*/
-
 }
 
 #navbar-content {
@@ -60,22 +58,14 @@
 }
 
 #logo{
-  /*position: fixed;*/
   position: relative;
   height: 80px;
   padding: 10px;
   left: 10px;
-
 }
-
-/*#logo:hover {
-  box-shadow: 2px 3px 2px #351340;
-}*/
 
 #nav-search{
 	position: absolute;
-	/*z-index: 2;*/
-	/*bottom: 10px;*/
     right: 35px;
     bottom: 10px;
 }
@@ -121,12 +111,8 @@ body {
 #container{
 	background-color: white;
 	width: 75%;
-	/*position: relative;*/
-	/*height: 100%;*/
-	/*box-shadow: 3px 3px 5px black;*/
 	height: 1700px;
 	border: 1px solid #72517C;
-	/*box-shadow: 3px 3px 5px black;*/
 	margin: 0 auto;
 	margin-top: 100px;
 }

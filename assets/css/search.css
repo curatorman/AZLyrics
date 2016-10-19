@@ -2,9 +2,7 @@
 /* Search page */
 /*@@@@@@@@@@@@@*/
 
-
 #search-container{
-	/*text-align: center;*/
 	font-family: 'Open Sans', sans-serif;
 	position: relative;
 	height: 500px;
@@ -76,8 +74,8 @@
 
 .search-artist-pic{
 	height: 70px;
-
 }
+
 .search-artist-name{
 	position: absolute;
 	top: 50%;
