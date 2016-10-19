@@ -36,9 +36,13 @@
 }
 
 #artist-name{
-	font-size: 18px;
-	line-height: 36px;
+	font-size: 14px;
+	padding-top: 1%;
 	font-style: italic;
+}
+
+#album-name{
+	font-size: 14px;
 }
 
 .Chorus{
