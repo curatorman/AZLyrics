@@ -24,6 +24,10 @@
 	font-weight: 900;
 }
 
+.no-bold{
+	font-weight: normal;
+}
+
 #container #Artist-results{
 	font-size: 40px;
 	font-weight: 500;
